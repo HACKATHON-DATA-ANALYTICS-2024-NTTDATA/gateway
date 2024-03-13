@@ -46,4 +46,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/huawei-gateway:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/gateway:latest
